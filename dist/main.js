@@ -8,6 +8,7 @@ const initialPosition = new Position(1, 2);
 const initialDirection = Direction.North;
 const rover = new Rover(initialPosition, initialDirection, plateau);
 console.log("Posição inicial:", rover.getPosition());
+console.log("Direção inicial:", rover.getDirection());
 rover.moveLeftOrRight("right");
 rover.moveForwardOrBackward("forward");
 console.log(rover.getPosition());
